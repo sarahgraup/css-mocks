@@ -1,7 +1,7 @@
 body {
   margin: 0;
   border: 5px solid black;
-  height: 100vh;
+  height: 100vh; /* viewport height: height of window*/
   position: relative;
 }
 
@@ -21,10 +21,16 @@ body {
   width: 200px;
   height: 200px;
   background-color: green;
+  position: relative;
+  left: 400px;
+  top: 200px;
+
 }
 
 .four {
   width: 100px;
   height: 100px;
   background-color: blue;
+  position: relative;
+  top: 100px;
 }

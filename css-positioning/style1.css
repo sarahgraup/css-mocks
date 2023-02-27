@@ -11,20 +11,30 @@ body {
   background-color: red;
 }
 
+/* could add the position, left and right as common to put together*/
 .two {
   width: 300px;
   height: 300px;
   background-color: yellow;
+  position: relative;
+  left: 50px;
+  top: 50px;
 }
 
 .three {
   width: 200px;
   height: 200px;
   background-color: green;
+  position: relative;
+  left: 50px;
+  top: 50px;
 }
 
 .four {
   width: 100px;
   height: 100px;
   background-color: blue;
+  position: relative;
+  left: 50px;
+  top: 50px;
 }
